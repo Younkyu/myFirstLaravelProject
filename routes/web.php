@@ -20,3 +20,7 @@ Route::get('/process', function () {
 Route::get('/youngbin', function () {
     return view('welcome');
 });
+
+Route::get('/practice', function () {
+    return view('practice');
+});
