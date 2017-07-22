@@ -17,3 +17,6 @@ Route::get('/process', function () {
     return view('welcome');
 });
 
+Route::get('/youngbin', function () {
+    return view('welcome');
+});
